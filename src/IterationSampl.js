@@ -40,9 +40,11 @@ class IterationSampl extends React.Component {
   handleRemove = (index) => {
     const {names} = this.state;
     this.setState({
-      names:[
-        //여기부터
-      ]
+      names:names.filter((item,i) => i!==index)
+      // names:[
+        // ...names.slice(0,index),
+        // ...names.slice(index+1,names.length)
+      // ]
     })
   }
 
