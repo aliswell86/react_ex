@@ -1,26 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import MyComponent from './MyComponent.js';
+// import EventPractice from './EventPractice.js';
+// import ValidationSample from './ValidationSample.js';
+// import ScrollBox from './ScrollBox.js';
+import IterationSampl from './IterationSampl.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      // <MyComponent name="Name" age={13} />
+      // <EventPractice />
+      // <div>
+      //   <ScrollBox ref={(ref) => this.scrollBox = ref}/>
+      //   <button onClick={() => this.scrollBox.scrollToBottom()}>맨밑으로</button>
+      // </div>
+      <IterationSampl />
     );
   }
 }
